@@ -1,0 +1,38 @@
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+
+ /* Clearing and Font Family */
+ *,html,body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+ }
+
+ /* Custom Border */
+
+ .custom-border {
+    border-top: 40px solid #ff8b28;
+ }
+
+ /* Navbar class active */
+ .active{
+    color: #ff8b28 !important;
+ }
+
+ /* Navbar Brand */
+ .navbar-brand {
+    color: #ff8b28 !important;
+ }
+
+ /* Left Session */
+ /* .left-session {
+    
+
+
+ } */
+
+ /* Custom Text */
+ .custom-text {
+    margin-left: 10%;
+    margin-top: 10%;
+    font-size: 72px;
+ }
