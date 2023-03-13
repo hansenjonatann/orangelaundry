@@ -49,7 +49,6 @@
     <div class="row justify-content-evenly align-items-center text-center">
         <div class="col-md-3">
             <div class="card-body-process">
-                <span><i class="fa-thin fa-washing-machine"></i></span>
                 <h5 class="card-title">
                     Wash & Fold
                 </h5>
@@ -58,66 +57,67 @@
             </div>
         </div>
         <div class="col-md-3">
-            <div class="card-body-process">
+            <div class="card-body-process2">
                 <h5 class="card-title">
-                    Wash & Fold
+                    Drycleaning
                 </h5>
-                <p class="card-text">Our laundry services can be folded at a low price and the process is fast because we
-                    use a special machine for laundry</p>
+                <p class="card-text">if there are clothes labeled dry clean only, even though we accept dry cleaning, we
+                    prefer wet cleaning only for soft clothes because they are more environmentally friendly.</p>
             </div>
         </div>
         <div class="col-md-3">
             <div class="card-body-process">
                 <h5 class="card-title">
-                    Wash & Fold
+                    Wet Clean
                 </h5>
-                <p class="card-text">Our laundry services can be folded at a low price and the process is fast because we
-                    use a special machine for laundry</p>
+                <p class="card-text">For your soft clothes, we have machines from the USA specifically for Wet Clean with
+                    low RPM so that your clothes are safe from damage and environmentally friendly.</p>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card-body-process2">
+                <h5 class="card-title">
+                    Wash & Steam Ironing
+                </h5>
+                <p class="card-text">Our laundry services can be used for washing & ironing with excellent results and cheap
+                    laundry prices, please register on our website or tel us.</p>
+            </div>
+        </div>
+        {{-- Down Section --}}
+        <div class="col-md-3">
+            <div class="card-body-process2">
+                <h5 class="card-title">
+                    Manual Wash
+                </h5>
+                <p class="card-text">We accept manual washing services for clothes that need special treatment, our team is
+                    very experienced so your clothes are guaranteed safe.</p>
             </div>
         </div>
         <div class="col-md-3">
             <div class="card-body-process">
                 <h5 class="card-title">
-                    Wash & Fold
+                    Stain
                 </h5>
-                <p class="card-text">Our laundry services can be folded at a low price and the process is fast because we
-                    use a special machine for laundry</p>
+                <p class="card-text">we provide stain removal services such as blood, ink, dirt, etc. using special tools to
+                    clean stains, our customers are very satisfied with the results so far, but we do not guarantee that all
+                    stains can be removed.</p>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card-body-process2">
+                <h5 class="card-title">
+                    Just Iron
+                </h5>
+                <p class="card-text">Our cheap laundry services use special steam irons for laundry and experienced staff,
+                    so your clothes are safe from wrinkling and burning.</p>
             </div>
         </div>
         <div class="col-md-3">
             <div class="card-body-process">
                 <h5 class="card-title">
-                    Wash & Fold
+                    Unit Laundry
                 </h5>
-                <p class="card-text">Our laundry services can be folded at a low price and the process is fast because we
-                    use a special machine for laundry</p>
-            </div>
-        </div>
-        <div class="col-md-3">
-            <div class="card-body-process">
-                <h5 class="card-title">
-                    Wash & Fold
-                </h5>
-                <p class="card-text">Our laundry services can be folded at a low price and the process is fast because we
-                    use a special machine for laundry</p>
-            </div>
-        </div>
-        <div class="col-md-3">
-            <div class="card-body-process">
-                <h5 class="card-title">
-                    Wash & Fold
-                </h5>
-                <p class="card-text">Our laundry services can be folded at a low price and the process is fast because we
-                    use a special machine for laundry</p>
-            </div>
-        </div>
-        <div class="col-md-3">
-            <div class="card-body-process">
-                <h5 class="card-title">
-                    Wash & Fold
-                </h5>
-                <p class="card-text">Our laundry services can be folded at a low price and the process is fast because we
-                    use a special machine for laundry</p>
+                <p class="card-text">We provide special treatment for your expensive clothes with one washing machine for one customer or clothes, using a special laundry machine from the USA.</p>
             </div>
         </div>
     </div>
