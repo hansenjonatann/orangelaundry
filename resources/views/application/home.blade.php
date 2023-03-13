@@ -4,6 +4,7 @@
 @section('title', 'Home')
 @section('home')
     <div class="row custom-border">
+        {{-- Left Session --}}
         <div class="col-md-6 left-session">
             <h1 class="custom-text animate__animated animate__backInLeft animate__slow 2s">Batam Laundry Services</h1>
             <p class="animate__animated animate__backInUp animate__slow 3s custom-p">In 2023, the textile care industry was
@@ -89,6 +90,7 @@
             </div>
             <a href="/our-services" class="btn-custom mb-md-3">OUR SERVICES</a>
         </div>
+        {{-- Right Session --}}
         <div class="col-md-6  right-session">
             <div class="background-top animate__animated animate__fadeIn animate__slow 3s"></div>
             <div class="box-contact pt-5">
@@ -97,8 +99,9 @@
             </div>
         </div>
     </div>
+    {{-- Services --}}
     <div class="services">
-        <div class="row d-flex justify-content-center pt-5 ">
+        <div class="row d-flex justify-content-center pt-5 animate__animated animate__flash animate__slow 2s ">
             <div class="col-md-8">
                 <h2 class="text-center">We provide laundry services in Batam with shuttle laundry solutions so you don't
                     have to
@@ -112,36 +115,56 @@
                 </p>
             </div>
         </div>
-        <div class="container-custom d-flex mx-auto justify-content-center mt-4 ">
+        <div
+            class="container-custom d-flex mx-auto justify-content-center mt-4  animate__animated animate__backInLeft animate__slow 3s">
             <div class="row   text-center mt-2">
                 <div class="col-md-3">
-                    <div class="card-body">
-                        <span class="bg-white rounded-circle p-4 "><i class="bi bi-bag fs-2  "></i></span>
+                    <div class="card-body ">
+                        <span class="bg-white rounded-circle p-4 "><i class="bi bi-bag fs-2 custom-services  "></i></span>
                         <p class="mt-4 me-3 "> 1. Online Order</p>
                     </div>
                 </div>
                 <div class="col-md-3">
-                    <div class="card-body">
-                        <span class="bg-white rounded-circle p-4"><i class="bi bi-truck fs-2  "></i></span>
-                        <p class="mt-4 me-3"> 2. We Pick Up </p>
+                    <div class="card-body ">
+                        <span class="bg-white rounded-circle p-4"><i class="bi bi-truck fs-2 custom-services  "></i></span>
+                        <p class="mt-4 me-3 "> 2. We Pick Up </p>
                     </div>
                 </div>
                 <div class="col-md-3">
-                    <div class="card-body">
-                        <span class="bg-white rounded-circle p-4"><i class="bi bi-droplet fs-2 "></i></span>
-                        <p class="mt-4 me-3"> 3. We are washing</p>
+                    <div class="card-body ">
+                        <span class="bg-white rounded-circle p-4"><i class="bi bi-droplet fs-2 custom-services "></i></span>
+                        <p class="mt-4 me-3 "> 3. We are washing</p>
                     </div>
                 </div>
                 <div class="col-md-3">
-                    <div class="card-body">
-                        <span class="bg-white rounded-circle p-4"><i class="bi bi-truck-flatbed fs-2 "></i></span>
-                        <p class="mt-4"> 4. We take it back</p>
+                    <div class="card-body ">
+                        <span class="bg-white rounded-circle p-4"><i
+                                class="bi bi-truck-flatbed fs-2  custom-services"></i></span>
+                        <p class="mt-4 "> 4. We take it back</p>
                     </div>
                 </div>
                 <form action="">
                     <button type="submit" class="btn-order">ONLINE ORDER</button>
                 </form>
 
+            </div>
+        </div>
+    </div>
+    <div class="feedback">
+        <div class="row justify-content-center text-center mt-4">
+            <div class="col-md-8">
+                <h1>Full Amount Refund</h1>
+                <i class="fa-solid fa-arrow-right-arrow-left me-2 custom-icon mt-2"></i> <span class="fw-bold"> Return of
+                    the
+                    same item
+                </span>
+                <br>
+                <i class="fa-solid fa-repeat me-2 custom-icon mt-2"></i> <span class="fw-bold"> Repeated washing
+                </span>
+                <br>
+                <i class="fa-solid fa-money-bill-transfer mt-2 me-2 custom-icon"></i><span class="fw-bold"> Guarantee your
+                    money back
+                </span>
             </div>
         </div>
     </div>

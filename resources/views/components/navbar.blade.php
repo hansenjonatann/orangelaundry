@@ -12,45 +12,41 @@
                         href="/">Home</a>
                 </li>
                 <li class="nav-item dropdown " id="dropdownButton">
-                    <a class="nav-link dropdown-toggle " href="/our-services" role="button" data-bs-toggle="dropdown"
-                        aria-expanded="false">
-                        <span class="nav-dropdown">Our Services</span>
+                    <a class="nav-link dropdown-toggle " href="/our-services" aria-expanded="false">
+                        Our Services
                     </a>
-                    <ul class="dropdown-menu " id="menu">
-                        <li><a class="dropdown-item" href="#">Batam Shuttle <br />Laundry</a></li>
-                        <li><a class="dropdown-item" href="#">Price</a></li>
+                    <ul class="dropdown-menu menu ">
+                        <li><a class="dropdown-item" href="/batam-shuttle">Batam Shuttle <br />Laundry</a></li>
+                        <li><a class="dropdown-item" href="/price">Price</a></li>
                     </ul>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="/online-order">Online Order </a>
                 </li>
-                <li class="nav-item dropdown  " id="dropdownButton">
-                    <a class="nav-link dropdown-toggle" href="/about-us" role="button" data-bs-toggle="dropdown"
-                        aria-expanded="false">
+                <li class="nav-item dropdown  " id="dropdownButton2">
+                    <a class="nav-link dropdown-toggle" href="/about-us" role="button" aria-expanded="false">
                         About Us
                     </a>
-                    <ul class="dropdown-menu" id="menu">
+                    <ul class="dropdown-menu " id="menu2">
                         <li><a class="dropdown-item" href="/faq">FAQ</a></li>
                         <li><a class="dropdown-item" href="/termsandconditions">Terms and Conditions</a></li>
                         <li><a class="dropdown-item" href="/contact">Contact Us</a></li>
                     </ul>
                 </li>
-                <li class="nav-item dropdown  " id="dropdownButton">
-                    <a class="nav-link dropdown-toggle" href="/our-outlet" role="button" data-bs-toggle="dropdown"
-                        aria-expanded="false">
+                <li class="nav-item dropdown  " id="dropdownButton3">
+                    <a class="nav-link dropdown-toggle" href="/our-outlet" role="button" aria-expanded="false">
                         Our Outlet
                     </a>
-                    <ul class="dropdown-menu" id="menu">
+                    <ul class="dropdown-menu menu" id="menu3">
                         <li><a class="dropdown-item" href="#">Laundry Batam</a></li>
                         <li><a class="dropdown-item" href="#">Laundry Kepulauan Riau</a></li>
                     </ul>
                 </li>
-                <li class="nav-item dropdown  " id="dropdownButton">
-                    <a class="nav-link dropdown-toggle" href="/ourservice" role="button" data-bs-toggle="dropdown"
-                        aria-expanded="false">
+                <li class="nav-item dropdown  " id="dropdownButton4">
+                    <a class="nav-link dropdown-toggle" href="/ourservice" role="button" aria-expanded="false">
                         My Account
                     </a>
-                    <ul class="dropdown-menu" id="menu">
+                    <ul class="dropdown-menu menu" id="menu4">
                         <li><a class="dropdown-item" href="/cart">Cart</a></li>
                         <li><a class="dropdown-item" href="/checkout">Checkout</a></li>
                     </ul>
