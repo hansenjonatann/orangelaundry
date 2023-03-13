@@ -49,6 +49,11 @@
     margin-top: 3%;
  }
 
+ .custom-services-p{
+   margin-left: 15%;
+   margin-top: 3%;
+ }
+
  /*  */
 
  /* BTN CUSTOM */
@@ -116,6 +121,13 @@
     font-weight: bold;
  }
 
+ .custom-services-text {
+    margin-top: 10%;
+    margin-left: 15%;
+    font-size: 22px;
+    font-weight: 500;
+ }
+
  /* Button Order */
  .btn-order {
     background-color: white;
@@ -157,12 +169,44 @@
     border-top: 3px solid #ff8b28 !important;
 }
 
+/* Background Services */
+.background-services{
+   background-image: url('/public/img/washingmachine.jpg');
+   background-repeat: no-repeat;
+   /* background-position: center; */
+   background-attachment: fixed;
+   background-size: cover;
+   height: 650px;
+   color: #fff;
+}
 
+.btn-custom-services {
+   background-color: #ff8b28;
+   border-radius: 50px;
+   padding: 10px;
+   color: white;
+   font-weight: bold;
+   text-decoration: none;
+   margin-left: 20%;
+   transition: 1s all ease-in-out;
+}
 
+.card-body-process {
+   background-color: #ff8b28;
+   height: 200px;
+   color: white;
+   margin-top: 10%;
+   padding: 10px;
+}
 
+.card-body-process > h5{
+   font-weight: bold;
+   padding-top: 10%;
+}
 
-
-
+.card-body-process > p{
+   padding-top: 5%;
+}
 
 
 
@@ -196,3 +240,7 @@
 
 
  /* Responsive */
+
+ @media screen and(max-width:600px){
+
+ }

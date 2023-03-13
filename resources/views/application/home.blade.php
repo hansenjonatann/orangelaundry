@@ -88,11 +88,11 @@
                     </div>
                 </div>
             </div>
-            <a href="/our-services" class="btn-custom mb-md-3">OUR SERVICES</a>
+            <a href="/our-services" class="btn-custom mb-md-5 ">OUR SERVICES</a>
         </div>
         {{-- Right Session --}}
         <div class="col-md-6  right-session">
-            <div class="background-top animate__animated animate__fadeIn animate__slow 3s"></div>
+            <div class="background-top  animate__animated animate__fadeIn animate__slow 3s"></div>
             <div class="box-contact pt-5">
                 <h1>Contact Us:</h1>
                 <h3>+62 813-7258-8889</h3>

@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomeController;
+use App\Http\Controllers\OurServicesController;
 
 /*
 |--------------------------------------------------------------------------
@@ -16,3 +17,6 @@ use App\Http\Controllers\HomeController;
 
 // Route Home
 Route::get('/', [HomeController::class , 'show']);
+
+// Route Our Services
+Route::get('/our-services', [OurServicesController::class, 'show']);

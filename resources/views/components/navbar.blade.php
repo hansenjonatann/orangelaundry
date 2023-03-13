@@ -1,6 +1,8 @@
 <nav class="navbar navbar-expand-lg  sticky-top bg-white navbar-light custom-navbar w-100">
     <div class="container">
-        <a class="navbar-brand  " href="#">Orange Laundry</a>
+        <a class="navbar-brand  " href="#"> <img src="{{ asset('img/logo.png') }}" alt="" width="40"
+                height="40">
+        </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
             aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon "></span>
@@ -8,11 +10,12 @@
         <div class="collapse navbar-collapse  justify-content-end me-5" id="navbarNavDropdown">
             <ul class="navbar-nav me-2 custom-item ">
                 <li class="nav-item">
-                    <a class="nav-link {{ $title === 'Home' ? 'active color-active' : '' }}" aria-current="page"
+                    <a class="nav-link {{ $title === 'Home' ? 'active' : '' }}" aria-current="page"
                         href="/">Home</a>
                 </li>
                 <li class="nav-item dropdown " id="dropdownButton">
-                    <a class="nav-link dropdown-toggle " href="/our-services" aria-expanded="false">
+                    <a class="nav-link dropdown-toggle {{ $title === 'Our Services' ? 'active' : '' }}"
+                        href="/our-services" aria-expanded="false">
                         Our Services
                     </a>
                     <ul class="dropdown-menu menu ">
@@ -21,10 +24,12 @@
                     </ul>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="/online-order">Online Order </a>
+                    <a class="nav-link {{ $title === 'Online Order' ? 'active' : '' }}" href="/online-order">Online
+                        Order </a>
                 </li>
                 <li class="nav-item dropdown  " id="dropdownButton2">
-                    <a class="nav-link dropdown-toggle" href="/about-us" role="button" aria-expanded="false">
+                    <a class="nav-link dropdown-toggle {{ $title === 'About Us' ? 'active' : '' }}" href="/about-us"
+                        role="button" aria-expanded="false">
                         About Us
                     </a>
                     <ul class="dropdown-menu " id="menu2">
