@@ -46,8 +46,8 @@ button3.addEventListener('mouseover', function () {
     }
 })
 
-button4.addEventListener('mouseleave', function() {
-    menu4.style.display = 'none'
+button3.addEventListener('mouseleave', function() {
+    menu3.style.display = 'none'
 })
 
 // Button 4
