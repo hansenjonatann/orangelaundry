@@ -16,6 +16,7 @@
  /* Navbar class active */
  .active{
     color: #ff8b28 !important;
+    background-color: transparent !important;
  }
 
  /* Navbar Brand */
@@ -248,10 +249,42 @@
    border-bottom-right-radius: 80%;
 }
 
+/* Batam Shuttle Section */
+
+/* Batam Shuttle Backgound */
+.background-batam-shuttle {
+   background-image: url('/public/img/delivery.jpeg');
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   opacity: 0.85;
+   background-size: cover;
+   height: 650px;
+   color: #333;
+}
+
+.btn-custom-order-online{
+   background-color: #ff8b28;
+   color: white;
+   font-weight: bold;
+   padding: 3px 15px;
+   text-decoration: none;
+   margin-left: 35%;
+   border-radius: 15%;
+}
 
 
+.custom-icon-batam-shuttle{
+   background: #edcbff;
+   padding: 20px;
+   border-radius: 100%;
+   color: #ff8b28;
+}
 
+.custom-text-batam-shuttle{
+   font-weight: bold;
+   margin-top: 10%;
 
+}
 
 
 

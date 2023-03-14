@@ -19,7 +19,8 @@
                         Our Services
                     </a>
                     <ul class="dropdown-menu menu ">
-                        <li><a class="dropdown-item" href="/batam-shuttle">Batam Shuttle <br />Laundry</a></li>
+                        <li><a class="dropdown-item {{ $title === 'Batam Shuttle Laundry' ? 'active' : '' }}""
+                                href="/batam-shuttle">Batam Shuttle <br />Laundry</a></li>
                         <li><a class="dropdown-item" href="/price">Price</a></li>
                     </ul>
                 </li>
