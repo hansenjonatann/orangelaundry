@@ -277,6 +277,7 @@
    background: #edcbff;
    padding: 20px;
    border-radius: 100%;
+   margin-top: 10%;
    color: #ff8b28;
 }
 
@@ -286,6 +287,18 @@
 
 }
 
+.custom-col-batam-shuttle {
+   padding-top: 10%;
+}
+
+
+.custom-services-price-title {
+   margin-top: 10%;
+   font-size: 40px;
+   font-weight: 500;
+   text-align:center;
+
+}
 
 
 
