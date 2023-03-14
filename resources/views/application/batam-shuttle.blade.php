@@ -51,24 +51,35 @@
                 </div>
             </div>
             <div class="col-md-3 custom-col-batam-shuttle">
-                <i class="bi bi-truck custom-icon-batam-shuttle"></i>
-                <h5 class="custom-text-batam-shuttle">
-                    2. We Pick Up
-                </h5>
-                <p class="card-text">
-                    Items that have been prepared by the customer will be picked up by us according to the schedule that has
-                    been arranged
-                </p>
+                <div class="card-body">
+
+                    <i class="bi bi-truck custom-icon-batam-shuttle"></i>
+                    <h5 class="custom-text-batam-shuttle">
+                        2. We Pick Up
+                    </h5>
+                    <p class="card-text">
+                        Items that have been prepared by the customer will be picked up by us according to the schedule that
+                        has
+                        been arranged
+                    </p>
+                </div>
             </div>
             <div class="col-md-3 custom-col-batam-shuttle">
-                <i class="bi bi-arrow-clockwise custom-icon-batam-shuttle"></i>
-                <h5 class="custom-text-batam-shuttle">
-                    Washing & Folding Process
-                </h5>
-                <p class="card-text">Your goods that have been taken by us, we will immediately wash and fold your goods and
-                    ready to be delivered back to your hands</p>
+                <div class="card-body">
+
+                    <i class="bi bi-arrow-clockwise custom-icon-batam-shuttle"></i>
+                    <h5 class="custom-text-batam-shuttle">
+                        Washing & Folding Process
+                    </h5>
+                    <p class="card-text">Your goods that have been taken by us, we will immediately wash and fold your goods
+                        and
+                        ready to be delivered back to your hands</p>
+                </div>
             </div>
             <div class="col-md-3 custom-col-batam-shuttle">
+                <div class="card-body">
+
+                </div>
                 <i class=" bi bi-arrow-return-left custom-icon-batam-shuttle"></i>
                 <h5 class="custom-text-batam-shuttle">
                     Delivered Back to Your Hands
@@ -82,55 +93,28 @@
         <div class="col-md-8">
             <h1 class="card-title custom-services-price-title">Price</h1>
         </div>
-        <div class="row mt-2">
+        <div class="row mt-4 text-center">
             <div class="col-md-3">
                 <h5 class="card-title">
                     Dry Washing Only
                 </h5>
-                <p class="card-text">Rp4.000,00/kg</p>
+                <p class="card-text mt-2">Rp4.000,00/kg</p>
             </div>
             <div class="col-md-3">
                 <h5 class="card-title">Wet Washing Only</h5>
-                <p class="card-text">Rp4.000,00.kg</p>
+                <p class="card-text mt-2">Rp4.000,00.kg</p>
             </div>
             <div class="col-md-3">
                 <h5 class="card-title">Washing Only/Dry Washing Only/Wet Washing Only (Non Ironing)</h5>
-                <p class="card-text">Rp4.000,00/kg</p>
+                <p class="card-text mt-2">Rp4.000,00/kg</p>
             </div>
             <div class="col-md-3">
                 <h5 class="card-title">
                     Hanging Only [Non Dry Washing/Non Wet Washing/Non Ironing]
                 </h5>
-                <p class="card-text">Rp4.000,00/kg</p>
+                <p class="card-text mt-2">Rp4.000,00/kg</p>
 
             </div>
-            <div class="col-md-3"></div>
-            <p class="card-text">The customer makes a schedule for the laundry to be picked up by our staff</p>
-        </div>
-    </div>
-    <div class="col-md-3">
-        <div class="card-body">
-            <i class="bi bi-truck custom-icon-batam-shuttle"></i>
-            <h5 class="custom-text-batam-shuttle">We Pick Up</h5>
-            <p class="card-text">The customer prepares the laundry and we will pick it up</p>
-        </div>
-    </div>
-    <div class="col-md-3">
-        <div class="card-body">
-            <i class="bi bi-arrow-clockwise custom-icon-batam-shuttle"></i>
-            <h5 class="custom-text-batam-shuttle">Washing and Folding Process</h5>
-            <p class="card-text">We wash and fold laundry items from customers</p>
-        </div>
-    </div>
-    <div class="col-md-3">
-        <div class="card-body">
-            <i class="bi bi-arrow-return-left custom-icon-batam-shuttle"></i>
-            <h5 class="custom-text-batam-shuttle">
-                We Bring It Back
-            </h5>
-            <p class="card-text">
-                We deliver the customer's laundry back to the customer safely
-            </p>
         </div>
     </div>
     </div>
@@ -139,7 +123,7 @@
         <div class="col-md-8">
             <h1 class="card-title">Price</h1>
         </div>
-        <div class="row justify-content-center">
+        <div class="row justify-content-center ">
             @foreach ($service_list as $service)
                 <div class="col-md-3">
                     <h5 class="card-title custom-text-price-batam-shuttle">{{ $service['service_name'] }}</h5>
