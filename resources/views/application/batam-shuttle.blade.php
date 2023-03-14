@@ -47,7 +47,6 @@
                     <h5 class="custom-text-batam-shuttle">
                         1. Online Order
                     </h5>
-<<<<<<< HEAD
                     <p class="card-text">The customer arranges a schedule for picking up yout goods</p>
                 </div>
             </div>
@@ -106,51 +105,49 @@
 
             </div>
             <div class="col-md-3"></div>
-=======
-                    <p class="card-text">The customer makes a schedule for the laundry to be picked up by our staff</p>
-                </div>
-            </div>
-            <div class="col-md-3">
-                <div class="card-body">
-                    <i class="bi bi-truck custom-icon-batam-shuttle"></i>
-                    <h5 class="custom-text-batam-shuttle">We Pick Up</h5>
-                    <p class="card-text">The customer prepares the laundry and we will pick it up</p>
-                </div>
-            </div>
-            <div class="col-md-3">
-                <div class="card-body">
-                    <i class="bi bi-arrow-clockwise custom-icon-batam-shuttle"></i>
-                    <h5 class="custom-text-batam-shuttle">Washing and Folding Process</h5>
-                    <p class="card-text">We wash and fold laundry items from customers</p>
-                </div>
-            </div>
-            <div class="col-md-3">
-                <div class="card-body">
-                    <i class="bi bi-arrow-return-left custom-icon-batam-shuttle"></i>
-                    <h5 class="custom-text-batam-shuttle">
-                        We Bring It Back
-                    </h5>
-                    <p class="card-text">
-                        We deliver the customer's laundry back to the customer safely
-                    </p>
-                </div>
-            </div>
+            <p class="card-text">The customer makes a schedule for the laundry to be picked up by our staff</p>
         </div>
-        {{-- Price Section --}}
-        <div class="row custom-background pt-4  pb-4 justify-content-center text-center mt-3">
-            <div class="col-md-8">
-                <h1 class="card-title">Price</h1>
-            </div>
-            <div class="row justify-content-center">
-                @foreach ($service_list as $service)
-                    <div class="col-md-3">
-                        <h5 class="card-title custom-text-price-batam-shuttle">{{ $service['service_name'] }}</h5>
-                        <p class="custom-desc-price-batam-shuttle">{{ $service['service_price'] }}</p>
-                    </div>
-                @endforeach
-            </div>
->>>>>>> dev
+    </div>
+    <div class="col-md-3">
+        <div class="card-body">
+            <i class="bi bi-truck custom-icon-batam-shuttle"></i>
+            <h5 class="custom-text-batam-shuttle">We Pick Up</h5>
+            <p class="card-text">The customer prepares the laundry and we will pick it up</p>
         </div>
+    </div>
+    <div class="col-md-3">
+        <div class="card-body">
+            <i class="bi bi-arrow-clockwise custom-icon-batam-shuttle"></i>
+            <h5 class="custom-text-batam-shuttle">Washing and Folding Process</h5>
+            <p class="card-text">We wash and fold laundry items from customers</p>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="card-body">
+            <i class="bi bi-arrow-return-left custom-icon-batam-shuttle"></i>
+            <h5 class="custom-text-batam-shuttle">
+                We Bring It Back
+            </h5>
+            <p class="card-text">
+                We deliver the customer's laundry back to the customer safely
+            </p>
+        </div>
+    </div>
+    </div>
+    {{-- Price Section --}}
+    <div class="row custom-background pt-4  pb-4 justify-content-center text-center mt-3">
+        <div class="col-md-8">
+            <h1 class="card-title">Price</h1>
+        </div>
+        <div class="row justify-content-center">
+            @foreach ($service_list as $service)
+                <div class="col-md-3">
+                    <h5 class="card-title custom-text-price-batam-shuttle">{{ $service['service_name'] }}</h5>
+                    <p class="custom-desc-price-batam-shuttle">{{ $service['service_price'] }}</p>
+                </div>
+            @endforeach
+        </div>
+    </div>
     </div>
     <div class="row justify-content-center text-center mt-4">
         <div class="col-md-12 mb-4">
@@ -276,7 +273,8 @@
                 <h5 class="card-title">
                     Wash & Steam Ironing
                 </h5>
-                <p class="card-text">Our laundry services can be used for washing & ironing with excellent results and cheap
+                <p class="card-text">Our laundry services can be used for washing & ironing with excellent results and
+                    cheap
                     laundry prices, please register on our website or tel us.</p>
             </div>
         </div>
