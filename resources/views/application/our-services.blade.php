@@ -4,7 +4,7 @@
 @section('our-services')
     <div class="row custom-border background-services ">
         <div class="col-md-8">
-            <div class="container-custom">
+            <div class="container-custom-our-services">
                 <div class="col-md-6">
                     <div class="card-body">
                         <h5 class="card-title custom-services-text">
@@ -53,7 +53,8 @@
         </div>
     </div>
 
-    <div class="row justify-content-evenly align-items-center text-center">
+    <div
+        class="row justify-content-evenly align-items-center text-center animate__animated animate__bounceInLeft animate__slow 1s">
         <div class="col-md-3">
             <div class="card-body-process">
                 <h5 class="card-title">
