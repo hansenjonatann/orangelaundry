@@ -49,6 +49,11 @@
     margin-top: 3%;
  }
 
+ .custom-p2{
+   margin-left: 12%;
+   margin-top: 3%;
+ }
+
  .custom-services-p{
    margin-left: 15%;
    margin-top: 3%;
@@ -227,6 +232,21 @@
 }
 
 
+.custom-text-card{
+   font-size: 32px;
+   margin-top: 5%;
+}
+
+
+.container-custom {
+   background: white;
+   margin-bottom: 20%;
+   color: black;
+   overflow: hidden;
+   max-width: 100%;
+   padding-bottom: 2%;
+   border-bottom-right-radius: 80%;
+}
 
 
 
@@ -258,6 +278,26 @@
 
  /* Responsive */
 
- @media screen and(max-width:600px){
+ @media(max-width:576px){
+   /* Container Custom */
+   .container-custom {
+      border-bottom-right-radius: 5%;
+      padding-bottom: 5%;
+      margin-bottom:5%;
+      opacity: 0.85;
+   }
 
+   /* Box Contact */
+   .box-contact{
+      background-color: #edcbff;
+      height: 200px;
+   }
+
+   /* Background Top  */
+   .background-top {
+      height: 450px;
+      margin-top: 5%;
+      background-attachment: fixed;
+      background-image: url('/public/img/bgimg.jpg');
+   }
  }
