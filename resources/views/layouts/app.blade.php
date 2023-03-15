@@ -43,7 +43,7 @@
     
 
 
- } */
+ }
 
         /* Custom Text */
         .custom-text {
@@ -490,10 +490,7 @@
     @yield('batam-shuttle')
     @yield('price')
     @yield('online-order')
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous">
-        import './bootstrap';
-
+    <script>
         const button = document.querySelector('#dropdownButton');
         const button2 = document.querySelector('#dropdownButton2');
         const button3 = document.querySelector('#dropdownButton3');

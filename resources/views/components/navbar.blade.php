@@ -1,6 +1,6 @@
 <nav class="navbar navbar-expand-lg  sticky-top bg-white navbar-light custom-navbar w-100">
     <div class="container">
-        <a class="navbar-brand  " href="#"> <img src="{{ asset('img/logo.png') }}" alt="" width="40"
+        <a class="navbar-brand  " href="/"> <img src="{{ asset('img/logo.png') }}" alt="" width="40"
                 height="40">
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
