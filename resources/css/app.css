@@ -331,8 +331,45 @@
    margin-top: 2%;
 }
 
+/* Price */
+.background-price {
+   background-image: url('/public/img/price.jpg');
+   height: 600px;
+   background-repeat: no-repeat;
+   background-size: cover;
+   box-sizing: border-box;
+   opacity: 0.5;
+   background-position: center;
+}
 
+.custom-price-text {
+   padding-top: 10%;
+   margin-left: 15%;
+   font-size: 22px;
+   font-weight: 500;
+}
 
+.custom-price-subtitle {
+   margin-left: 15%;
+   margin-top: 5%;
+}
+
+.custom-price-desc{
+   margin-left: 15%;
+   margin-top: 3%;
+   margin-right: 10%;
+}
+
+ .custom-background-white-price {
+   background: white;
+   height: 470px;
+   border-bottom-right-radius: 50%;
+   width: 750px;
+}
+
+.custom-card-price {
+   background-color: #ff8b28;
+}
 
 
 
@@ -377,8 +414,25 @@
    .card-text{
       margin-bottom: 10% !important;
    }
+
+   .btn-custom-order-online{
+      margin-bottom: 4%;
+   }
+   .custom-background-white-price {
+      background: white;
+      height: 600px;
+      opacity: 0.70;
+      font-weight: bold;
+      border-bottom-right-radius: 0%;
+      width: 400px;
+   }
 }
 
 .custom-background {
    background-color: #ff8b28;
 }
+
+.custom-background-white{
+   background-color: white;
+}
+
