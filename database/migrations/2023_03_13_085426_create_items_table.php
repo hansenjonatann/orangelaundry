@@ -14,8 +14,9 @@ return new class extends Migration
         Schema::create('items', function (Blueprint $table) {
             $table->id();
             $table->string('items_name')->required();
+            $table->text('items_image');
             $table->bigInteger('quantity')->nullable();
-            $table->bigInteger('price_per_item');
+            $table->string('price_per_item');
             $table->integer('total')->nullable();
             $table->timestamps();
         });

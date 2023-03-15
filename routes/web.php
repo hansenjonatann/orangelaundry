@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\PriceController;
+use App\Http\Controllers\OnlineOrderController;
 use App\Http\Controllers\OurServicesController;
 use App\Http\Controllers\BatamShuttleController;
 
@@ -28,3 +29,6 @@ Route::get('/batam-shuttle', [BatamShuttleController::class , 'show']);
 
 // Route Price 
 Route::get('/price', [PriceController::class , 'show']);
+
+// Route Order Online
+Route::get('/online-order', [OnlineOrderController::class ,'show']);

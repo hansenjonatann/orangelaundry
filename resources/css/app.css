@@ -372,8 +372,19 @@
 }
 
 
+.line{
+   color: blue;
+   height: 2%;
+}
 
 
+
+.custom-button-order{
+   background-color: #ff8b28;
+   padding:3% 40%;
+   border:none;
+   color: white;
+}
 
 
 
